@@ -101,5 +101,37 @@ footer {
 }
 
 .top {
-    margin-left: 70px;
+    margin-left: 80px;
+    align-items: center;
 }
+
+@media (max-width: 600px) {
+  .header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .links {
+    margin: 12px 0 16px;
+  }
+
+  .links ul {
+    /* padding-left: 10; */
+    margin: 0;
+    list-style: none;
+    text-align: left;
+  }
+  .top {
+    margin-left: 0;
+    /* padding-right: 16px; */
+  }
+  .avatar {
+    margin: 0 auto; 
+    display: block;    
+  }
+  .title h1,
+  .title h2 {
+    margin: 0;
+  }
+}
+
